@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffcc00"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/picanha" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PICANHA RECHEADA"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ingredientes"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1,6 kg de picanha  Sal a gosto  Pimenta-do-reino a gosto  Cominho a gosto  Azeite a gosto  Bacon picado em cubinhos a gosto  Calabresa picada em cubinhos a gosto  1 cebola picada  1/2 pimentão vermelho  1/2 pimentão amarelo  Pimenta-dedo-de-moça picadinha a gosto  Provolone ralado a gosto  Raminhos de alecrim a gosto  Dentes de alho inteiros a gosto"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modo de preparo"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abra a base mais larga da picanha, enfiando a faca quase até o final. O objetivo é fazer uma cavidade, mas sem furar a carne. Tempere a carne por fora com sal, pimenta, cominho e azeite, reserve. Frite o bacon e a calabresa. Adicione a cebola, os pimentões e a pimenta-dedo-de-moça. Quando murchar desligue o fogo e espere esfriar. Acrescente o provolone ralado. Coloque o recheio na cavidade feita na picanha. Feche a carne com palitos de dente. Aqueça 1 fio de azeite em uma panela grande e sele a carne. Em seguida transfira para uma assadeira com os ramos de alecrim e os dentes de alho. Regue com mais azeite. Asse em forno preaquecido a 200 °C por 1h. Agora é só servir! Bom apetite."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/buttonNova"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PRÓXIMO" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
